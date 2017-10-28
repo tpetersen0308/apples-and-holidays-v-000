@@ -95,5 +95,5 @@ def all_holidays_with_bbq(holiday_hash)
       holidays_with_bbqs << holiday if list.include?("BBQ")
     end
   end
-
+  holidays_with_bbqs
 end
